@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Reference screenshots pasted into the design session; kept local only
+design/uploads/

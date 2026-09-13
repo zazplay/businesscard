@@ -3,6 +3,8 @@
 Personal site of a full-stack engineer: three production projects shown as tabs, each with its
 headline numbers, architecture diagrams and stack.
 
+Live: <https://zazplay.github.io/businesscard/>
+
 Built with React 19, TypeScript and Vite; styles are CSS Modules, icons are bundled
 (`lucide-react`, `simple-icons`), so the page loads nothing from third-party CDNs except Google Fonts.
 
@@ -13,6 +15,8 @@ npm install
 npm run dev      # http://localhost:5173
 npm run build    # type-check and build to dist/
 ```
+
+Every push to `main` builds the site and deploys it to GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Where things live
 
