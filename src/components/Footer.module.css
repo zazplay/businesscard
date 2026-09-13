@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--faint);
+}
+
+.note {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 14px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.telegram {
+  color: var(--telegram);
+}
+
+.telegram:hover {
+  color: var(--telegram-hover);
+}
+
+.github {
+  color: #181717;
+}
+
+.github:hover {
+  color: var(--accent);
+}
+
+.linkedin {
+  color: var(--linkedin);
+}
+
+.linkedin:hover {
+  color: #084f96;
+}

@@ -1,0 +1,46 @@
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: clamp(22px, 3vw, 30px);
+  border-top: 1px solid var(--line);
+}
+
+.text {
+  display: grid;
+  gap: 6px;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(19px, 2.2vw, 23px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 15px;
+  color: #61616f;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 22px;
+  border-radius: 10px;
+  background: var(--telegram);
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  box-shadow: 0 10px 22px -14px rgba(34, 158, 217, 0.95);
+}
+
+.button:hover {
+  background: var(--telegram-hover);
+  color: #fff;
+}

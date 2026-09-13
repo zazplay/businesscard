@@ -1,0 +1,92 @@
+.header {
+  display: grid;
+  gap: 14px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.name {
+  margin: 0;
+  font-size: clamp(30px, 4.4vw, 44px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.intro {
+  max-width: 56ch;
+  margin: 0;
+  font-size: clamp(15px, 1.5vw, 17px);
+  line-height: 1.55;
+  color: var(--text);
+  text-wrap: pretty;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid #e3e3ea;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.telegram {
+  border: 0;
+  background: var(--telegram);
+  color: #fff;
+  box-shadow: 0 8px 18px -12px rgba(34, 158, 217, 0.9);
+}
+
+.telegram:hover {
+  background: var(--telegram-hover);
+  color: #fff;
+}
+
+.github {
+  color: var(--ink);
+}
+
+.github:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: #fff;
+}
+
+.linkedin {
+  color: var(--linkedin);
+}
+
+.linkedin:hover {
+  border-color: var(--linkedin);
+  background: var(--linkedin);
+  color: #fff;
+}
