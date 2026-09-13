@@ -3,7 +3,7 @@
 Personal site of a full-stack engineer: three production projects shown as tabs, each with its
 headline numbers, architecture diagrams and stack.
 
-Live: <https://zazplay.github.io/businesscard/>
+Live: <https://zazplay.github.io/viktor-zhuk/>
 
 Built with React 19, TypeScript and Vite; styles are CSS Modules, icons are bundled
 (`lucide-react`, `simple-icons`), so the page loads nothing from third-party CDNs except Google Fonts.
