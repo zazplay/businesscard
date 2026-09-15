@@ -11,10 +11,6 @@ import { overview, proofs, stack } from './data';
 export function PaymentProject() {
   return (
     <>
-      <ProjectOverview data={overview} statSize="md" workSize="lg" />
-      <Section icon={ShieldCheck} title="What this proves">
-        <ProofGrid items={proofs} />
-      </Section>
       <Section icon={Cpu} title="Anatomy of the kiosk">
         <KioskAnatomy />
       </Section>
@@ -23,6 +19,10 @@ export function PaymentProject() {
       </Section>
       <Section icon={LayoutGrid} title="Operator console" note="— fictional data">
         <ConsoleTable />
+      </Section>
+      <ProjectOverview data={overview} statSize="md" workSize="lg" />
+      <Section icon={ShieldCheck} title="What this proves">
+        <ProofGrid items={proofs} />
       </Section>
       <Section icon={Server} title="Stack" tight>
         <StackGroups groups={stack} />

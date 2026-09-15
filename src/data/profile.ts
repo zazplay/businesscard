@@ -10,7 +10,7 @@ export const profile = {
   name: 'Viktor Zhuk',
   role: 'Full-stack engineer · TypeScript · React + NestJS',
   intro:
-    'Full-stack engineer, TypeScript end to end. Three production systems in the last two years: a self-service payment platform, a smart equipment locker and an escrow marketplace — each from an empty repository to real users and real money. Kiosk UIs, hardware integration, payment providers, cloud services and the consoles that operate them. Open to full-stack and architecture roles.',
+    'Full-stack engineer, TypeScript end to end. Four production systems in the last two years: a self-service payment platform, a smart equipment locker, an escrow marketplace and a meal subscription service — each from an empty repository to real users and real money. Kiosk UIs, hardware integration, payment providers, recurring billing, cloud services and the consoles that operate them. Open to full-stack and architecture roles.',
 };
 
 export const socials = [

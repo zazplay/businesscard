@@ -13,6 +13,7 @@ const TECH = {
   framer: { name: 'Framer Motion', href: 'https://motion.dev/', brand: brand.framer },
   i18next: { name: 'i18next', href: 'https://www.i18next.com/', brand: brand.i18next },
   vite: { name: 'Vite', href: 'https://vitejs.dev/', brand: brand.vite },
+  antdesign: { name: 'Ant Design', href: 'https://ant.design/', brand: brand.antdesign },
   tailwind: { name: 'Tailwind', href: 'https://tailwindcss.com/', brand: brand.tailwind },
   shadcn: { name: 'shadcn/ui', href: 'https://ui.shadcn.com/', brand: brand.shadcn },
   zod: { name: 'zod', href: 'https://zod.dev/', brand: brand.zod },

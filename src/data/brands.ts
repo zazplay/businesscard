@@ -1,4 +1,5 @@
 import {
+  siAntdesign,
   siFramer,
   siGit,
   siGithub,
@@ -39,6 +40,7 @@ const siPlaywright: Brand = {
 };
 
 export const brand = {
+  antdesign: siAntdesign,
   framer: siFramer,
   git: siGit,
   github: siGithub,

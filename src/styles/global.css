@@ -1,10 +1,9 @@
 :root {
   --bg: #fafafc;
   --ink: #1b1b22;
+
+  /* Brand colour, used until a project is picked. */
   --accent: #4b3be4;
-  --accent-soft: #f8f7ff;
-  --accent-line: #e4e1fb;
-  --dash: #cfcbf6;
 
   --text: #55555f;
   --text-strong: #48485a;
@@ -26,6 +25,39 @@
   --font-mono: 'DM Mono', ui-monospace, monospace;
 
   --flow-gap: clamp(34px, 4.5vw, 46px);
+}
+
+/*
+ * Every project has its own colour. A project sets --accent and nothing else:
+ * the tints below are mixed from it, and they are redeclared on each themed
+ * element so they follow that element's own --accent.
+ */
+[data-project='pay'] {
+  --accent: #4a8b10;
+}
+
+[data-project='lock'] {
+  --accent: #7c3aed;
+}
+
+[data-project='market'] {
+  --accent: #1d62d8;
+}
+
+[data-project='meals'] {
+  --accent: #16845c;
+}
+
+:root,
+[data-project] {
+  --accent-soft: color-mix(in srgb, var(--accent) 5%, #fff);
+  --accent-tint: color-mix(in srgb, var(--accent) 10%, #fff);
+  --accent-line: color-mix(in srgb, var(--accent) 16%, #fff);
+  --accent-line-2: color-mix(in srgb, var(--accent) 24%, #fff);
+  --dash: color-mix(in srgb, var(--accent) 32%, #fff);
+  --accent-hover: color-mix(in srgb, var(--accent) 38%, #fff);
+  --accent-ghost: color-mix(in srgb, var(--accent) 18%, transparent);
+  --accent-deep: color-mix(in srgb, var(--accent) 18%, var(--ink));
 }
 
 html,

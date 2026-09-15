@@ -39,7 +39,7 @@
 }
 
 a.chip:hover {
-  border-color: #c9c3f7;
+  border-color: var(--accent-hover);
   background: var(--accent-soft);
   color: var(--accent);
 }

@@ -43,8 +43,8 @@
 }
 
 .on {
-  border-color: #dcd8fa;
-  background: #f3f1fe;
+  border-color: var(--accent-line-2);
+  background: var(--accent-tint);
   color: var(--accent);
 }
 

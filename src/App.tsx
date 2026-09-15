@@ -10,8 +10,9 @@ export default function App() {
   const [activeId, setActiveId] = useState<ProjectId>('pay');
   const active = projects.find((p) => p.id === activeId) ?? projects[0];
 
+  // data-project carries the project's colour palette down the page.
   return (
-    <div className={styles.page}>
+    <div className={styles.page} data-project={active.id}>
       <div className={styles.flow}>
         <Header />
         <main className={styles.flow}>

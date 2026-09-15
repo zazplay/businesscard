@@ -49,7 +49,7 @@
 }
 
 .deviceOffline .deviceScreen {
-  background: #2a2540;
+  background: var(--accent-deep);
 }
 
 .deviceSlot {
@@ -84,8 +84,8 @@
 }
 
 .statusOffline {
-  border-color: #dcd8fa;
-  background: #f7f6ff;
+  border-color: var(--accent-line-2);
+  background: var(--accent-soft);
   color: var(--accent);
 }
 
@@ -108,9 +108,9 @@
   justify-items: center;
   max-width: 340px;
   padding: 14px 26px;
-  border: 1px solid #dcd8fa;
+  border: 1px solid var(--accent-line-2);
   border-radius: 999px;
-  background: linear-gradient(180deg, #f7f6ff, #fff);
+  background: linear-gradient(180deg, var(--accent-soft), #fff);
   text-align: center;
 }
 
@@ -120,7 +120,7 @@
   gap: 8px;
   font-size: 15px;
   font-weight: 600;
-  color: #2a2340;
+  color: var(--accent-deep);
 }
 
 .cloudIcon {
@@ -196,7 +196,7 @@
 .bar {
   flex: 1;
   border-radius: 3px 3px 0 0;
-  background: #e7e5fb;
+  background: var(--accent-line);
 }
 
 .barPeak {
